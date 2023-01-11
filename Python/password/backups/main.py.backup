@@ -1,0 +1,25 @@
+print("Welcome to Security")
+import time
+time.sleep(0.5)
+print ("Loading...")
+time.sleep(0.8)
+print("Welcome")
+password = input("Input Password: ")
+if password =="password":
+    time.sleep(0.4)
+    print("Loading Database...")
+    time.sleep(1)
+    print("""Press 1 For Multiplication
+Press 2 for Quiz
+press 3 for else
+press 4 for security
+5 to end
+""")
+else:
+    print("Incorrect Password")
+    print("Self Destructing In 2 Seconds")
+    time.sleep(2)
+    exit()
+
+
+
